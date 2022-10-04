@@ -162,8 +162,8 @@ describe('esPrimo(num)', function() {
   });
   it('should return false if num is not prime', function() {
     expect(esPrimo(9)).toBe(false);
-    expect(esPrimo(4)).toBe(false);
-    expect(esPrimo(10)).toBe(false);
+    expect(esPrimo(2)).toBe(true);
+    expect(esPrimo(13)).toBe(true);
     expect(esPrimo(100)).toBe(false);
     expect(esPrimo(0)).toBe(false);
     expect(esPrimo(1)).toBe(false);
